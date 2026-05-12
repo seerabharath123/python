@@ -73,3 +73,48 @@ print(round(10.990,1))#11.0
 print(round(80.23456, 2))
 print(round(100.5623, 3))
 
+import random
+x=[1,2,3,4,5]
+print(random.choice(x))#1
+print(random.choice(x))#3
+print(random.choice(x))#5
+
+Example:
+import random
+items=[1,2,3,4,5,6,7]
+print(random.choice(items))
+print(random.choice(items))
+print(random.choice(items))
+
+import operator
+a=int(input("Enter Any Valid  Number: "))
+b=int(input("Enter Any Valid  Number: "))
+print(operator.lt(a, b))
+print(operator.le(a, b))
+print(operator.eq(a, b))
+print(operator.ne(a, b))
+print(operator.ge(a, b))
+print(operator.gt(a, b))
+
+Example
+a=int(input("Enter Any Valid  Number: "))
+b=int(input("Enter Any Valid  Number: "))
+print(operator.__lt__(a, b))
+print(operator.__le__(a, b))
+print(operator.__eq__(a, b))
+print(operator.__ne__(a, b))
+print(operator.__ge__(a, b))
+print(operator.__gt__(a, b))
+
+
+
+
+
+
+
+
+
+
+
+
+
