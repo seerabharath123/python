@@ -1,1 +1,59 @@
+print(type('Hello'))
+
+def Hello():
+    print("Wish Programmers")
+print(type(Hello))
+
+syntax
+class Account:
+"""This is docstring, explains brief about the class"""
+	pass
+sb_account=Account()
+current_account=Account()
+
+
+variable
+Object1: Human
+Identity: Midhun
+Properties: Color, Height, Weight
+Functionalities: walk () , see() , run() ....
+
+
+instance
+class Banking():
+#It is a Method of Member
+#Class inside all are members
+    def MyCustomer():
+        print("Welcome to Banking")
+        return()
+#Driver Code
+BB=Banking()
+BB.MyCustomer()
+#TypeError: MyCustomer() takes 0 positional arguments but 1 was given
+
+
+variable
+Example:
+class Human():
+    "This class demonstrates the creation of Objects"
+    #Instance Attributes
+    num=100
+    #Instance Method
+    def EampleMethod(self):
+        print("I am a method inside the class")
+#Creating Object or Instance of Human Class
+HH=Human()
+print(HH.num)
+#Calling Method
+HH.EampleMethod()
+print(Human.__doc__)
+print(help(Human))
+
+
+
+
+
+
+
+
 
