@@ -1,0 +1,70 @@
+def OuterFun():
+    x=10
+    def InnerFun():
+        print(x)
+    InnerFun()
+OuterFun()
+ 
+def Outer_Func(msg):
+    message=msg
+    def Inner_Func():
+        print(message)
+    return Inner_Func
+hi_func=Outer_Func("Hi")
+hello_func=Outer_Func("Hello")
+hi_func()
+hello_func()
+
+outline 
+def Outer_Func(msg):
+    message=msg
+    def Inner_Func():
+        print(message)
+    return Inner_Func
+hi_func=Outer_Func("Hi")
+hello_func=Outer_Func("Hello")
+hi_func()
+hello_func()
+
+variable
+def Outer_Func(msg):
+    message=msg
+    def Inner_Func():
+        print(message)
+    return Inner_Func
+hi_func=Outer_Func("Hi")
+hello_func=Outer_Func("Hello")
+hi_func()
+hello_func()
+
+decor
+def MyDecor_Two(func):
+    def MyInner_Two():
+        func()
+        print("New Functionality for Decorator Two")
+    return MyInner_Two
+
+def MyDecor_One(func):
+    def MyInner_One():
+        func()
+        print("New Functionality for Decorator One")
+    return MyInner_One
+
+@MyDecor_Two
+@MyDecor_One
+def MyOrginal():
+    print("My Original Function")
+MyOrginal()
+
+
+
+
+
+
+
+
+
+
+
+
+          
