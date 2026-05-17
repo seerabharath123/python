@@ -1,1 +1,59 @@
+RE PATTERN
+import re
+line="pet:cat I love cats"
+mat=re.search(r"pet:\w\w\w",line)
+print(mat.group(0))
+
+RE SPLIT
+import re
+line="I love cats pet:cat I love cows, pet:cow thank U"
+mat=re.split(r"pet:\w\w\w",line)
+print(mat)
+   
+RE SUB
+import re
+text = "Python for beginners is a cool Scripting"
+pattern = re.sub("cool", "good", text)
+print(pattern)
+
+RE SUB
+import re
+fi = open('Hai.txt')
+for line in fi:
+       if re.search('From:', line) :
+         line = line.rstrip()
+         print(line)
+ 
+RE COM
+import re
+pattern=re.compile('NiT')
+result=pattern.findall('NiT qtmasters i Technologies NiT')
+print (result)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
