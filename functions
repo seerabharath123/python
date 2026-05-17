@@ -1,0 +1,67 @@
+#Definition of the function
+#Name of the function
+def MyMsgs_Shows():#Indentation of the function (right)
+    #Body of the function
+    #Logical part of the function
+    #Called Part of the function
+    #Argument declaration section
+    print("Hey Welcome to Functions")
+    print('Good One')
+    #End of the function
+    #Always Optional
+    #It is the statement
+    return()
+#Calling Part
+#Passing Parameters
+#Passing Parameters
+#Passed values are parameters
+#Code recalling/Reusable
+MyMsgs_Shows()
+MyMsgs_Shows()
+
+ ex def Input():
+    x=input("Enter Any Number: ")
+    y=input("Enter Any Number: ")
+    z=int(x)+int(y);
+    print(z)
+    return()
+Input()print("The Sum is :",x)
+print("The Subtraction is :",y)
+
+scores
+def Scores(BigData,Hadoop=85,Spark=80):  
+    print(BigData,Hadoop,Spark)  
+Scores(71,77)  
+Scores(65,Spark=74)  
+Scores(BigData=70,Hadoop=90,Spark=75) 
+
+aliasing
+def Hello_World(name):
+    print("Good Morning:",name)
+MyWorld=Hello_World
+Hello_World('Machine Learning')
+del Hello_World
+MyWorld("PYTHON")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
