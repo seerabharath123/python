@@ -1,0 +1,50 @@
+str 
+a=100
+print(type(a)) #<class 'int'>
+print(str(a))
+print(type(a)) #<class 'str'>
+
+list
+MyStr="PYTHON"
+print(type(MyStr))
+MyList=list(MyStr)
+print(type(MyList))
+print(MyList)
+ 
+tuple
+MyStr="PYTHON"
+print(type(MyStr))
+MyTuple=tuple(MyStr)
+print(type(MyTuple))
+print(MyTuple)
+
+set
+MyStr="PYTHON"
+print(type(MyStr))
+MySet=set(MyStr)
+print(type(MySet))
+print(MySet)
+
+logic operator
+x = True; y = False
+# Output: x and y is False
+print('x and y is',x and y)
+
+# Output: x or y is True
+print('x or y is',x or y)
+
+# Output: not x is False
+print('not x is',not x)
+
+dict
+MyTup=(('a',1),('b',2),('c',3))
+print(type(MyTup))
+MyDict=dict(MyTup)
+print(type(MyDict))
+print(MyDict)
+
+
+
+
+
+
