@@ -1,0 +1,48 @@
+with open("MyFile.txt",mode='r',encoding='utf-8') as MyFile:
+        print(MyFile.name)
+        print(MyFile.mode)
+        print(MyFile.closed)
+        print(MyFile.readable())
+        print(MyFile.writable())
+except IOError:
+    print("SorryFileNotExisted")
+finally:
+    print("FinallyBlockSuccess")
+
+try:
+    with open("MyFile.txt",mode='w',encoding='utf-8') as MyFileObj:
+        MyFileObj.writable()
+        MyFileObj.write("Welcome to PYTHON File Operations\n")
+        MyFileObj.writelines("""Multiple lines are
+                             Writing inside the A file.
+                             Thank U""")
+except IOError:
+ Absolutepath or FullPath or LocalPath:
+with open("C:\\Users\\admin\\Desktop\\Data\\MyFile.txt",mode='w',encoding="utf-8") as MyFile:
+    MyFile.writelines("हिन्दी हिन्दी हिन्दी हिन्दी\n")
+    MyFile.writelines("తెలుగు తెలుగు తెలుగు తెలుగు\n")
+    MyFile.writelines("Thank U")
+print("FileCreatedSuccessfully")
+
+read
+with open("python.txt",'r',encoding = 'utf-8')as fi:
+    print(fi.read(3))    # read the first 3 chars. data
+    print(fi.read())     # read in the rest till end of file
+    print(fi.read())  # further reading returns empty sting
+fi.close()
+
+seek syntax
+with open("python.txt",'r',encoding = 'utf-8')as fi:
+    print(fi.read(5))
+    str = fi.read(10);
+    print("Read Strting is: " ,str)
+    position=fi.seek(0,0)
+print("The Position of the cursor is: ",position)
+
+
+
+
+
+
+
+
