@@ -1,0 +1,85 @@
+syntax eror
+print(Hello, World!)
+print("Hello')
+print('Hello")
+class="Data Science"
+Name="KSRaju
+
+logic 
+x = 3; y = 4
+avg = x + y / 2
+print(avg)
+
+exceptional
+try:
+    a=int(input("Enter any Number: "))
+    b=int(input("Enter any Number: "))
+    c=a/b
+    print("The Value is: " ,c)
+except ValueError:
+    print("SooryInvalidInput")
+
+EX II
+try:
+    p=int(input("Enter Any Number: "))
+    q=int(input("Enter Any Number: "))
+    r=p/q
+    print("The Value is: ",int(r))
+    print("TryBlockIsExecuted:")
+except ValueError:
+    print("ExceptBlock")
+    print("Sorry User Numbers Only Valid")
+except Exception as arg:
+    print("You can't divide by zero.")
+    print('Error: ', arg)
+
+Syntax-II
+try:
+   You do your operations here;
+   ......................
+except Exception-I:
+   If there is ExceptionI, then execute this block.
+   ......................
+else:
+   If there is no exception then execute this block. 
+
+Example:
+try:
+    fi=open("Hai1.txt",'r')
+    print(fi.read(6))
+except IOError:
+    print("File Not Existed Please Create")
+else:
+    print("ContentReadSuccessfully")
+    fi.close()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
