@@ -1,1 +1,52 @@
+Purple = ()
+print(type(PyTuple))#<class 'tuple'>
+print(PyTuple)#()
+
+int
+PyTuple=(1, 2, 3)
+print(type(PyTuple))#<class 'tuple'>
+print(PyTuple)#(1, 2, 3)
+
+float
+PyTuple=(1.1, .1.2, 3.1)
+print(type(PyTuple))#<class 'tuple'>
+print(PyTuple)#(1.1, 1.2, 3.1)
+
+nested
+PyTuple=("Data Science", (8, 4, 6), (1, 2, 3))
+print(type(PyTuple))#<class 'tuple'>
+print(PyTuple)#('Data Science', (8, 4, 6), (1, 2, 3))
+
+concatenation
+PyTuple1=(3, 6, 9, 12, 15)   
+PyTuple2=("P", "Y", "T", "H", "O", "N")  
+PyTuple3=(True, False)  
+PyTuple4=PyTuple1+PyTuple2+PyTuple3  
+print(PyTuple4)
+#Repetation * Operator
+PyTuple5=5,
+print(PyTuple5*6)   
+
+MyTuple=(1,2,3,4)
+print(type(MyTuple))
+print(MyTuple)
+MyList=list(MyTuple)
+print(type(MyList))
+print(MyList)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
